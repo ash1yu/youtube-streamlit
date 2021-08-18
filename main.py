@@ -23,7 +23,7 @@ for i in range(100):
 
 "Done"
 
-left_column, right_colum = st.columns(2)
+left_column, right_colum = st.beta_columns(2)
 
 button = left_column.button("右カラムに文字を表示")
 if button:
